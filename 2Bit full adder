@@ -1,0 +1,19 @@
+$ 1 0.000005 10.20027730826997 50 5 43 5e-11
+. 2Bit-Halbaddierer 1 5 3 7 A0 1 1 0 A1 4 0 0 B0 3 4 0 B1 2 3 0 Cy 22 1 1 S0 6 3 1 S1 5 2 1 InverterElm\s4\s8\rInverterElm\s1\s9\rInverterElm\s2\s10\rInverterElm\s3\s7\rOrGateElm\s11\s12\s6\rOrGateElm\s13\s21\s14\s22\rOrGateElm\s15\s16\s20\s19\s18\s17\s5\rAndGateElm\s1\s7\s11\rAndGateElm\s9\s3\s12\rAndGateElm\s8\s1\s2\s7\s15\rAndGateElm\s4\s1\s2\s3\s16\rAndGateElm\s8\s1\s10\s3\s20\rAndGateElm\s4\s1\s10\s7\s19\rAndGateElm\s4\s9\s10\s18\rAndGateElm\s8\s9\s2\s17\rAndGateElm\s1\s2\s3\s13\rAndGateElm\s4\s1\s3\s21\rAndGateElm\s4\s2\s14 0\\s0.5\\s5\s0\\s0.5\\s5\s0\\s0.5\\s5\s0\\s0.5\\s5\s0\\s2\\s0\\s5\s0\\s3\\s0\\s5\s0\\s6\\s0\\s5\s0\\s2\\s0\\s5\s0\\s2\\s0\\s5\s0\\s4\\s0\\s5\s0\\s4\\s0\\s5\s0\\s4\\s0\\s5\s0\\s4\\s0\\s5\s0\\s3\\s0\\s5\s0\\s3\\s0\\s5\s0\\s3\\s0\\s5\s0\\s3\\s0\\s5\s0\\s2\\s0\\s5
+410 192 528 224 528 1 2Bit-Halbaddierer 0\s0.5\s5 0\s0.5\s5 0\s0.5\s5 0\s0.5\s5 0\s2\s0\s5 0\s3\s0\s5 0\s6\s0\s5 0\s2\s0\s5 0\s2\s0\s5 0\s4\s0\s5 0\s4\s0\s5 0\s4\s0\s5 0\s4\s0\s5 0\s3\s0\s5 0\s3\s0\s5 0\s3\s0\s5 0\s3\s0\s5 0\s2\s0\s5
+410 192 720 224 720 1 2Bit-Halbaddierer 0\s0.5\s5 0\s0.5\s5 0\s0.5\s5 0\s0.5\s5 0\s2\s0\s5 0\s3\s0\s5 0\s6\s0\s5 0\s2\s0\s5 0\s2\s0\s5 0\s4\s0\s5 0\s4\s0\s5 0\s4\s0\s5 0\s4\s0\s5 0\s3\s0\s5 0\s3\s0\s5 0\s3\s0\s5 0\s3\s0\s5 0\s2\s0\s5
+152 208 816 208 912 0 2 0 5
+w 320 624 352 688 0
+w 288 624 320 688 0
+w 256 624 192 624 0
+w 256 816 224 816 0
+L 224 688 224 656 0 0 false 5 0
+207 256 496 256 448 4 A0
+207 320 496 320 448 4 B1
+207 352 496 352 448 4 B0
+207 224 496 224 448 4 A1
+w 192 816 192 624 0
+207 288 816 288 864 4 S1
+207 256 688 256 656 4 CyIn
+207 208 912 208 944 4 CyOut
+207 320 816 320 864 4 S0
